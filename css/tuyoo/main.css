@@ -1,0 +1,292 @@
+/* edit by gxc  */
+
+/*  css common */
+body{font-family:"Microsoft YaHei","微软雅黑";}
+body,ul,ol,p,h1,h2,h3,h4,h5,h6{margin:0;padding:0}
+li{list-style: none;}
+a{text-decoration: none;color:#fff;}
+.clear{zoom:1;}
+.clear:after{content:'';display: block;height:0;visibility: hidden;clear:both;}
+.f16{font-size: 16px;}
+.f20{font-size: 20px;}
+.f22{font-size: 22px;}
+.f18{font-size: 18px;}
+.f14{font-size:14px;}
+.f12{font-size:12px;}
+.f10{font-size:10px;}
+.white{color:#fff;}
+.green{color:#20a238;}
+.grey{color:#ababab;}
+.yellow{color:#d0d031;}
+.red{color:#ff0000;}
+.black{color:#000;}
+.gColor{color:#51b060;}
+.textc{text-align: center;}
+.texti{text-indent: 2em;}
+
+/* css for index.html */
+header{background: #363636;width:100%;height:83px;border-bottom:1px solid #fff;}
+.wrap{width:960px;margin:0 auto;position: relative;}
+.logo{float:left;background: url("../../images/tuyoo/logo.png") no-repeat 18px 23px;width:152px;height:59px;display:block;}
+#nav{float:right;width:600px;padding:0 10px;}
+#nav li{float:left;}
+#nav li a{line-height:85px;height:78px;display: block;margin-right:38px;}
+.b-active{border-bottom:5px solid #f5dc28;}
+
+/* css for picList */
+#picList{width:100%;position:relative;overflow: hidden;height:450px;}
+#imgList{position: absolute;left:0;top:0;}
+#imgList li{float:left;height:450px;}
+#imgList li img{display:block;width:100%;height:100%;}
+#points{position: absolute;left:50%;bottom:28px;margin-left:-90px;}
+#points li{float:left;width:26px;height:2px;background: #fff;margin:0 5px;cursor:pointer;}
+#points li.active{background:#f5dc28;}
+
+/* css for content */
+.common{background: url("../../images/tuyoo/logo1.png") no-repeat;margin-top:34px;}
+.wrap .head{height:21px;line-height:21px;margin-left:66px;background: url("../../images/tuyoo/bgPoint.gif") repeat-x 0 39px;padding:30px 0;}
+.wrap .head .tleft{float:left;background:#fff;}
+.wrap .head .tright{float:right;background:#fff;display: block;cursor: pointer;padding-left:5px;}
+.wrap .head .triangle{border-left:7px solid #20a238;border-top: 5px solid transparent;border-bottom: 5px solid transparent;width:0;height:0;float:right;margin-top:5px;margin-left:4px;}
+.wrap .head .forAll{float:right;}
+
+.wrapCent{padding-top:4px;}
+.overflow{overflow: hidden;float:left;width:924px;position: relative;height:320px;}
+.turnLeft{height:148px;width:18px;float:left;background: url("../../images/tuyoo/left.gif") no-repeat 1px 64px;cursor:pointer;opacity:0.6;}
+.turnRight{height:148px;width:18px;float:left;background: url("../../images/tuyoo/right.gif") no-repeat 7px 64px;cursor:pointer;opacity:0.6;}
+.turnLeft:hover{opacity:1;}
+.turnRight:hover{opacity:1;}
+#gList{position: absolute;top:0;left:0;}
+#gList li{height:320px;float:left;padding:0 8px;width:215px;}
+#gList li a{display: block;}
+#gList li img{display:block;border-radius:5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;}
+.glTitle{height:45px;line-height:55px;}
+.glContent{height:80px;padding:0 20px 0 26px;line-height: 18px;}
+.glButton{padding-top:22px;padding-left:18px;}
+.button1{background: #20a238;width:87px;height:29px;border-radius:2px;-webkit-border-radius: 2px;-moz-border-radius: 2px;float:left;cursor: pointer;}
+.button2{background: #f5dc28;width:87px;height:29px;border-radius:2px;-webkit-border-radius: 2px;-moz-border-radius: 2px;float:left;margin-left:4px;cursor: pointer;}
+.buttona{background: url("../../images/tuyoo/download-w.png") no-repeat 65px 7px;line-height:29px;text-indent: 10px;width:100%;height:100%;background-size: 15px 15px;}
+.buttoni{background: url("../../images/tuyoo/download-w.png") no-repeat 62px 7px;line-height:29px;text-indent: 11px;width:100%;height:100%;background-size: 15px 15px;}
+
+.common1{background: url("../../images/tuyoo/logo1.png") no-repeat;margin-top:60px;border-top:1px solid #f0f0f0;margin-bottom:80px;}
+.news{width:538px;float:left;}
+.newsContent{padding-left:12px;}
+.newsContent li{padding-bottom: 28px;}
+.newsHead{line-height:26px;display:block;}
+.newsCont{line-height:25px;white-space: nowrap;text-overflow:ellipsis;width:526px;overflow: hidden; }
+
+.fresh{width:222px;padding-left:36px;float:left;}
+.freshHead{height:68px;line-height:78px;}
+.freshContent{width:222px;height:327px;border-radius:3px;-webkit-border-radius: 3px;-moz-border-radius: 3px;background: #6cc27c;}
+.freshTop{padding-left:18px;padding-bottom: 22px;height:140px;}
+.topHead{float:left;height:51px;line-height:60px;width:205px;display:block;}
+.topLeft{float:left;width:79px;}
+.topImg{height:60px;}
+.topImg img{margin-left:10px;border-radius:5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;}
+.topButton{width:68px;height:27px;background: #fff;border-radius:4px;-webkit-border-radius: 4px;-moz-border-radius: 4px;display: block;cursor:pointer;}
+.leftWrap{background: url("../../images/tuyoo/download-g.png") no-repeat 45px 6px;width:100%;height:100%;text-indent: 11px;line-height: 27px;}
+.topRight{float:left;width:106px;}
+.rightContent{line-height:18px;color:#b6debd;height:90px;text-overflow:ellipsis;overflow: hidden;}
+
+.line{width:100%;background: #b6e1be;height:1px;}
+
+.freshBottom{padding-left:18px;padding-bottom: 22px;height:140px;}
+
+.customServe{float:left;padding-left:18px;width:146px;}
+.csHead{height:68px;line-height: 82px;}
+.csContent{width:100%;height:318px;background: #f0f0f0;border-radius:3px;-webkit-border-radius: 3px;-moz-border-radius: 3px;padding:9px 0 0 8px;}
+.csTop{line-height:33px;}
+.csCont{line-height: 17px;width:51px;padding:20px 0 0 38px;}
+.csImg{padding:10px 0 0 12px;}
+
+
+/* css for footer */
+footer{background: #363636;height:158px;}
+.fHead{padding-top:34px;padding-bottom: 15px;}
+.fContent{color:#999999;line-height: 28px;}
+
+
+/* css for game */
+.common2{background: url("../../images/tuyoo/logo2.png") no-repeat 20px 0;margin-top:21px;}
+.gameHead{height:39px;width:100%;border-bottom: 1px solid #3ca94d;}
+.ghLeft{float:left;line-height:56px;padding-left:68px;}
+.ghRight{float:left;padding-left:19px;margin-bottom:-2px;}
+#ghrNav{padding-top:8px;overflow: hidden;}
+#ghrNav li{margin:0 12px;padding:0 13px;line-height:30px;float:left;display: inline;z-index: 10;background: #fff;cursor: pointer;height:30px;}
+#ghrNav li:hover{border:1px solid #3ca94d;border-bottom:1px solid #fff;border-top-left-radius: 4px;border-top-right-radius: 4px;-webkit-border-top-left-radius: 4px;-webkit-border-top-right-radius: 4px;
+    -moz-border-top-left-radius: 4px;-moz-border-top-right-radius: 4px;-ms-border-top-left-radius: 4px;-ms-border-top-right-radius: 4px;font-weight: bold;}
+#ghrNav .ghrActive{border:1px solid #3ca94d;border-bottom:1px solid #fff;border-top-left-radius: 4px;border-top-right-radius: 4px;-webkit-border-top-left-radius: 4px;-webkit-border-top-right-radius: 4px;
+    -moz-border-top-left-radius: 4px;-moz-border-top-right-radius: 4px;-ms-border-top-left-radius: 4px;-ms-border-top-right-radius: 4px;font-weight: bold;}
+
+.gameCarousel{margin-top:18px;width:100%;overflow: hidden;position: relative;height:346px;}
+#gbanner{position: absolute;top:0;left:0;}
+#gbanner li{float:left;}
+#gbanner img{width:960px;height:346px;display: block;border-radius:3px;-webkit-border-radius: 3px;-moz-border-radius: 3px;-ms-border-radius:3px;}
+#gleft{position: absolute;left:6px;top:50%;width:30px;height:39px;margin-top:-20px;background: url("../../images/tuyoo/gleft.png") no-repeat 2px 0;opacity:0.6;cursor:pointer;}
+#gright{position: absolute;right:6px;top:50%;width:30px;height:39px;margin-top:-20px;background: url("../../images/tuyoo/gright.png") no-repeat 2px 0;opacity:0.6;cursor:pointer;}
+#gleft:hover{opacity:1;}
+#gright:hover{opacity:1;}
+
+#gameContent{margin-top:26px;width:100%;overflow: hidden;position: relative;}
+.gccSec{width:960px;}
+.gCont li{float:left;padding:0 12px 0 13px;width:215px;position: relative;}
+.gCont .gContImg{border-radius:3px;-webkit-border-radius: 3px;-moz-border-radius: 3px;-ms-border-radius:3px;height:146px;}
+.gCont li .gWeixin{position: absolute;top:0;left:13px;z-index: 5;height:146px;width:215px;opacity:0;
+    border-radius:3px;-webkit-border-radius: 3px;-moz-border-radius: 3px;-ms-border-radius:3px;}
+.gCont .gWeixin .gwBg{position: absolute;left:0;top:0;width:100%;height:100%;background: #41af53;opacity:0.8;}
+.gCont .gWeixin img{position:absolute;left:18px;top:35px;z-index:10;}
+.gCont .gWeixin .gweixinRight{position:absolute;left:105px;top:35px;z-index:10;}
+.gCont .gWeixin .gweixinCont{line-height:16px;}
+.gCont .gWeixin .gweixinMid{line-height:28px;height:28px;}
+.gCont .gWeixin .gweixinDown{padding-top:26px;line-height: 14px;}
+.gCont .gamecCont{padding-top:15px;padding-bottom: 30px;}
+.gCont .gamecLeft{float:left;line-height:27px;}
+.gCont .gamecRight{float:right;line-height:27px;display: block;border:1px solid #20a238;background:url("../../images/tuyoo/download-g.png") no-repeat 48px 6px;background-size: 14px 14px;width:62px;padding-left:5px;
+    border-radius:3px;-webkit-border-radius: 3px;-moz-border-radius: 3px;-ms-border-radius:3px;}
+
+/* css for gamecenter content */
+.gameBg{width:100%;background: url("../../images/tuyoo/gameBg.jpg") no-repeat;background-size: contain;}
+.gcLink{padding:26px 0 0 26px;}
+.gcTotal{background: #addbe8;width:401px;height:48px;border-radius:3px;-webkit-border-radius: 3px;-moz-border-radius: 3px;-ms-border-radius:3px;}
+.gcLink .gclLeft{float:left;width:265px;padding:17px 0 0 53px;background: url("../../images/tuyoo/home.png") no-repeat 14px 12px;border-top-left-radius:3px;-webkit-border-top-left-radius: 3px;-moz-border-top-left-radius: 3px;-ms-border-top-left-radius:3px;
+    border-bottom-left-radius:3px;-webkit-border-bottom-left-radius: 3px;-moz-border-bottom-left-radius: 3px;-ms-border-bottom-left-radius:3px;}
+.triangle-w{border-left:8px solid #fff;border-top:5px solid transparent;border-bottom: 5px solid transparent;border-right:none;width:0;height:0;float:left;display: block;margin-right:9px;margin-top:1px;}
+.gclLeft a{margin-right:13px;float:left;display: block;}
+.gclRight{float:right;background: #20a238;width:82px;height:48px;line-height: 48px;cursor: pointer;border-top-right-radius:3px;-webkit-border-top-right-radius: 3px;-moz-border-top-right-radius: 3px;-ms-border-top-right-radius:3px;
+    border-bottom-right-radius:3px;-webkit-border-bottom-right-radius: 3px;-moz-border-bottom-right-radius: 3px;-ms-border-bottom-right-radius:3px;}
+.gcDdz{height:163px;background: url("../../images/tuyoo/gdoudizhu1.png") no-repeat 50px 26px;}
+.gcIntro{padding:15px 0 0 39px;}
+.gciHead{line-height: 36px;color:#366024;font-weight: bold;font-family: '宋体';}
+.gciContent{line-height:28px;padding-left:2px;width:330px;}
+.jiathis_style{padding:13px 0 0 40px;}
+.jiathis_txt{line-height:22px;}
+.jiathis_button_icons_1{padding-left:18px;}
+.gcDownload{padding:18px 0 0 36px;width:434px;}
+.gcdl{display:block;margin:0 16px 17px 0;background: #fff;border-radius:3px;-webkit-border-radius: 3px;-moz-border-radius: 3px;-ms-border-radius:3px;width:201px;height:46px;float:left;}
+.gcdl:hover{background: #ceebdf;}
+.gcdLeft{width:92px;line-height:46px;color:#366024;background: #ceebd3;font-weight:bold;float:left;border-top-left-radius:3px;-webkit-border-top-left-radius: 3px;-moz-border-top-left-radius: 3px;-ms-border-top-left-radius:3px;
+    border-bottom-left-radius:3px;-webkit-border-bottom-left-radius: 3px;-moz-border-bottom-left-radius: 3px;-ms-border-bottom-left-radius:3px;}
+.gcdRight{float:right;width:109px;line-height: 46px;color:#366024;display:block;}
+.gcdr1{background: url("../../images/tuyoo/iphone.png") no-repeat 80px 9px;text-indent: 12px;}
+.gcdr2{background: url("../../images/tuyoo/ipad.png") no-repeat 75px 7px;text-indent: 12px;}
+.gcdr3{background: url("../../images/tuyoo/android.png") no-repeat 79px 9px;text-indent: 8px;}
+.gcdr4{background: url("../../images/tuyoo/pc.png") no-repeat 73px 14px;text-indent: 12px;}
+
+.gcDes{margin-top: 28px;}
+.gcdHead{float:left;height:34px;background: url("../../images/tuyoo/gameIntro.png") no-repeat 12px 0;width:100%;}
+.gcdContent{padding:23px 6px 0 6px;}
+.gcdc{background: #fff;width:892px;border-radius:6px;-webkit-border-radius: 6px;-moz-border-radius: 6px;-ms-border-radius:6px;padding:23px 28px;line-height:30px;color:#1f3c14;}
+
+.gcFeature{margin-top: 13px;}
+.gcfHead{float:left;height:34px;background: url("../../images/tuyoo/gameFig.png") no-repeat 12px 0;width:100%;}
+.gcfContent{padding:24px 6px 0 6px;}
+.gcfc{background: #fff;width:892px;border-radius:6px;-webkit-border-radius: 6px;-moz-border-radius: 6px;-ms-border-radius:6px;padding:38px 28px;line-height:30px;color:#1f3c14;}
+
+.gcCarousel{background: #ceebd3;width:100%;border-radius:6px;-webkit-border-radius: 6px;-moz-border-radius: 6px;-ms-border-radius:6px;padding:13px 0;margin-bottom: 60px;}
+.gccScroll{width:900px;float:left;overflow: hidden;}
+.gccLeft{float:left;width:30px;height:317px;background: url("../../images/tuyoo/gileft.png") no-repeat 10px 138px;cursor:pointer;opacity: 0.6;}
+.gccRight{float:right;width:30px;height:317px;background: url("../../images/tuyoo/giright.png") no-repeat 6px 138px;cursor: pointer;opacity: 0.6;}
+.gccRight:hover{opacity: 1;}
+.gccLeft:hover{opacity: 1;}
+#gccContent li{float:left;padding:0 7px;}
+.boy{width:280px;height:357px;position: absolute;left:439px;top:136px;background: url("../../images/tuyoo/boy.png") no-repeat;background-size: contain;z-index: 5;}
+.oldman{width:321px;height:441px;position: absolute;left:636px;top:85px;background: url("../../images/tuyoo/oldman.png") no-repeat;background-size: contain;}
+
+/* css for race center */
+.raceCarousel{width:960px;overflow: hidden;position: relative;margin-top:23px;height:220px;}
+#raceTurn{position: absolute;left:0;top:0;}
+#raceTurn li{float:left;}
+#raceTurn li a,#raceTurn li img{display:block;width:960px;height:220px;}
+#raceLeft{position: absolute;width:16px;height:26px;top:50%;left:34px;margin-top:-13px;background: url("../../images/tuyoo/gleft.png") no-repeat;background-size: contain;opacity:0.6;cursor: pointer;}
+#raceRight{position: absolute;width:16px;height:26px;top:50%;right:34px;margin-top:-13px;background: url("../../images/tuyoo/gright.png") no-repeat;background-size: contain;opacity:0.6;cursor: pointer;}
+#raceLeft:hover{opacity:1;}
+#raceRight:hover{opacity:1;}
+
+.mr30{margin-right:30px;}
+
+.raceList{margin-top:29px;}
+.raceList li{width:300px;height:222px;margin-bottom: 27px;background: #e9e9e9;float:left;}
+.raceList li img{width:300px;height:130px;}
+.raceContent{position: relative;margin:11px 28px 13px 28px;}
+.rcCont{color:#a1a1a1;line-height: 22px;}
+.raceContent a{color:#20a238;display:block;position: absolute;right:0;bottom:0;}
+.raceMore{width:100%;height:20px;position: relative;cursor: pointer;}
+.raceLine{position: absolute;top:50%;left:0;height:1px;background: #a4d9ae;width:100%;}
+.raceMid{position: absolute;top:0;left:50%;width:78px;height:20px;border-radius:8px;-webkit-border-radius: 8px;-moz-border-radius: 8px;-ms-border-radius:8px;line-height: 20px;margin-left:-39px;background: #e9e9e9;}
+.raceTri{border-top:5px solid #20a238;border-left:4px solid transparent;border-right:4px solid transparent;margin-top:8px;float:left;margin-left:3px;}
+.raceL{float:left;margin-left:10px;}
+
+/* css for news */
+.common3{background: url("../../images/tuyoo/logo1.png") no-repeat;margin-top:26px;border-top:1px solid #f0f0f0;}
+#newsList{padding:0 8px;}
+#newsList li{padding-bottom: 32px;}
+.nlHead a{display:block;float:left;line-height:32px;}
+.nlHead .nlhTime{float:left;line-height:34px;margin-left:6px;display:inline;}
+.nlContent{line-height:20px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.newsPage{height:24px;width:272px;margin:0 auto;margin-bottom: 24px;}
+.newsPage li{float:left;width:24px;height:24px;line-height: 25px;border-radius:2px;-webkit-border-radius: 2px;-moz-border-radius: 2px;-ms-border-radius:2px;cursor: pointer;}
+li.npActive{background: #99d4a4;color:#fff;cursor: default;}
+
+/* css for employAbout */
+#employ{width:100%;background: url("../../images/tuyoo/employBg.png") no-repeat;background-size: 100% 100%;position: relative;}
+.employM{width:100%;height:100%;background: url("../../images/tuyoo/newsBg.png") repeat;position: absolute;left:0;top:0;}
+.employC{overflow: hidden;width:100%;height:100%;}
+.eaLeft{width:170px;padding-top:37px;float:left;}
+.eaRight{width:729px;height:600px;overflow: hidden;position: absolute;top:38px;left:218px;opacity: 0;}
+#ealLeft{padding-left:20px;float:left;}
+#ealLeft li{margin-bottom: 39px;height:33px;line-height: 33px;color:#fff;border-bottom:2px solid transparent;width:106px;cursor: pointer;}
+.eallLeft{float:left;}
+.eallSign{float:left;width:19px;height:14px;background: url("../../images/tuyoo/logo2.png") no-repeat;background-size: 19px 14px;margin:10px 0 0 5px;display:none;}
+.eallTri{width:0;height:0;border-left:8px solid #f5dc28;border-top:4px solid transparent;border-bottom: 4px solid transparent;margin:13px 0 0 5px;float:left;display: none;}
+#ealLeft .eallActive{border-bottom:2px solid #146222;}
+.eallActive .eallLeft{color:#20a238;}
+.eallActive .eallSign{display: block;}
+.eallActive .eallTri{display: block;}
+.divide{float:right;width:1px;margin-top:7px;height:500px;overflow: hidden;background:-webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#524a42));
+    background:-moz-linear-gradient(top,#fff,#524a42);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff,endColorstr=#524a42,GradientType=0);}
+
+.earContent{width:724px;position: absolute;top:0;left:0;}
+.earcHead{font-size:14px;color:#f5dc28;line-height:16px;padding-top:25px;}
+.earcContent{font-size: 14px;line-height: 22px;color:#fff;}
+.earScroll{position: absolute;right:0;top:0;width:5px;height:100%;}
+.scroll{width:5px;background: #fff;position: absolute;right:0;top:0;height:10px;border-radius:1px;-webkit-border-radius: 1px;-moz-border-radius: 1px;-ms-border-radius:1px;
+    opacity: 0.6;filter:alpha(opacity=60);}
+.mt150{margin-top:150px;}
+
+/* css for newsContent */
+.ncBack{width:92px;height:35px;background:#faed8d;float:right;border-radius:2px;-webkit-border-radius: 2px;-moz-border-radius: 2px;-ms-border-radius:2px;margin-top:-6px;
+    color:#20a238;display: block;position: relative;}
+.ncbContent{position: absolute;top:8px;left:8px;}
+.ncbText{line-height: 35px;text-indent: 21px;}
+.newsTitle{white-space: nowrap;overflow: hidden;text-overflow: ellipsis;text-align: center;margin-top:30px;}
+.newsTime{text-align: center;margin-top: 16px;}
+.newsDescription{margin-top:60px;text-indent: 2em;line-height: 32px;padding:0 30px;}
+.newsRealContent{margin-top:34px;padding:0 15px;line-height: 32px;}
+.newsRealContent1{margin-top:12px;padding:0 15px;line-height: 32px;}
+.newsNext{text-align: center;margin:75px 0;display: block;}
+
+/* css for raceContent */
+.raceRealContent{margin-top:34px;padding:0 15px;line-height: 32px;font-weight: bold;}
+.raceRealContent1{margin-top:12px;padding:0 15px;line-height: 32px;font-weight: bold;}
+
+
+/* css for watch */
+.header{background: #20a238;}
+.backHead{float:right;height:83px;line-height: 80px;display: block;padding-right: 20px;}
+.watchImg{width:100%;height:345px;margin-top:22px;}
+.watchImg img{width:100%;height:345px;display: block;border-radius:3px;-webkit-border-radius: 3px;-moz-border-radius: 3px;-ms-border-radius:3px;}
+.watchTitle{width:100%;text-align: center;line-height:46px;height:46px;font-size: 16px;font-weight: bold;margin-top:18px;color:#20a238;}
+.watchDescription{width:100%;line-height:33px;font-size: 14px;margin-bottom:17px;color:#ababab;}
+.watchDescription .watchLink{font-size: 16px;color:#20a238;}
+.watchDown{width:215px;margin:42px auto;}
+.watchDown li{width:100%;height:54px;line-height: 54px;background: #eeeeee;border-radius:5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;-ms-border-radius:5px;margin-bottom: 10px;}
+.watchDown li a{color:#20a238;display: block;width:100%;height:100%;}
+.watchDown li:nth-of-type(3),.watchDown li:nth-of-type(4){text-indent: 32px;}
+.watchDown li:nth-of-type(3) a,.watchDown li:nth-of-type(4) a{background: url("../../images/tuyoo/download-g.png") no-repeat 166px 20px;}
+.watchTarget{width:100%;text-align: center;line-height:45px;height:45px;font-size: 14px;color:#ababab;}
+.watchTarget a{color:#20a238;}
+.footer{background: #20a238;}
+.footerCon{color:#99cda0;line-height: 28px;}
+.mt240{margin-top:240px;}
+
+
